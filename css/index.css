@@ -53,7 +53,8 @@ nav.floating {
     box-sizing: border-box;
 }
 
-ul, ol {
+ul,
+ol {
     list-style: none;
 }
 
@@ -157,7 +158,8 @@ img {
     }
 
     .main {
-        padding-top: 50px;;
+        padding-top: 50px;
+        ;
     }
 
     .footer-logo {
@@ -182,9 +184,10 @@ img {
         outline: none;
     }
 }
+
 .footer {
     color: #ffffff;
-    background-color: #24211b;
+    background-color: #000000;
     padding-top: 30px;
     padding-bottom: 15px;
     display: flex;
