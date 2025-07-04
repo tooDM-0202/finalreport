@@ -40,6 +40,14 @@
     margin-left: 0;
 }
 
+.explanation-text,
+.explanation2-text {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
 @media (max-width: 800px) {
     .member-list {
         padding-left: 20px;
