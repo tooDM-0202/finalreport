@@ -20,3 +20,23 @@ $(function () {
         500);
     });
 });
+
+window.addEventListener("load", () => {
+    gsap.to(".light", {
+        duration: 2,
+        opacity: 0,
+        ease: "power2.out",
+        onComplete: () => {
+            document.querySelector(".light").style.display = "none";
+        }
+    });
+
+
+    gsap.from(".first-view-text", {
+        duration: 2,
+        y: 50,
+        opacity: 0,
+        delay: 1.5,
+        ease: "power2.out"
+    });
+});
