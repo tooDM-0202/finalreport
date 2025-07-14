@@ -22,11 +22,11 @@ nav.floating {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 40ox;
+    padding-left: 40px;
     padding-bottom: 80px;
-    color: #ffffff;
+    color: #f6fffd;
     font-weight: bold;
-    text-shadow: 1px 1px 10px #4b2c14;
+    text-shadow: 1px 1px 10px hsl(37, 87%, 6%);
 }
 
 .first-view-text h1 {
@@ -69,6 +69,17 @@ body {
     color: #000000;
     line-height: 1;
     background-color: #ffffff;
+}
+
+.light {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(249, 249, 249);
+    z-index: 9999;
+    pointer-events: none;
 }
 
 img {
@@ -124,7 +135,7 @@ img {
         top: 0;
         left: 0;
         right: 0;
-        background-color: #ffffff;
+        background-color: #f6fffd;
         height: 50px;
         z-index: 10;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
@@ -143,7 +154,7 @@ img {
         left: 0;
         right: 0;
         color: #ffffff;
-        background-color: #736e62;
+        background-color: hsl(37, 87%, 6%);
         padding-top: 30px;
         padding-bottom: 50px;
         display: none;
