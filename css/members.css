@@ -48,6 +48,10 @@
     line-height: 1.8;
 }
 
+.header {
+    font-family: 'RocknRoll One', sans-serif;
+}
+
 @media (max-width: 800px) {
     .member-list {
         padding-left: 20px;
