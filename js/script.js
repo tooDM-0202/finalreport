@@ -13,14 +13,6 @@ window.addEventListener('load', function () {
 });
 
 
-$(function () {
-    $(window).scroll(function () {
-        $("nav.floating").stop().animate(
-            {"top": $(window).scrollTop() + 100},
-        500);
-    });
-});
-
 window.addEventListener("load", () => {
     gsap.to(".light", {
         duration: 2,
